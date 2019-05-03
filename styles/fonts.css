@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Miso Regular';
+	src: 
+		url('../fonts/Miso Regular') format('truetype'),
+    	url('../fonts/miso_regular-webfont.woff2') format('woff2'),
+        url('../fonts/miso_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Miso-bold';
+	src: 
+		url('../fonts/Miso-bold') format('truetype'),
+    	url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+        url('../fonts/miso-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: 
+    	url('../fonts/Lato Regular') format('truetype'),
+    	url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+        url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

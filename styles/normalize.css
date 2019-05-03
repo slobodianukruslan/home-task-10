@@ -1,0 +1,28 @@
+* {
+	/* box-sizing */
+	 box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+
+   /* Скидання відступів браузера */
+   margin: 0;
+   padding: 0;
+  
+  /* Для плавної анімації*/
+   transition: all .1s ease-in;
+ }
+
+ /* Класс псевдораспорки */
+ 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear-fix:after, 
+.clear-fix:before{
+  clear: both;
+  content: '';
+  display: block;
+}
